@@ -1,0 +1,9 @@
+name: 'Check PR Title'
+description: 'Checks if PR title starts with "octocat"'
+inputs:
+  title:
+    description: 'Title of the PR'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
