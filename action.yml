@@ -5,5 +5,5 @@ inputs:
     description: 'Title of the PR'
     required: true
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: 'docker'
+  image: 'Dockerfile'

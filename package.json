@@ -1,0 +1,15 @@
+{
+  "name": "fakeaction",
+  "version": "1.0.0",
+  "description": "Checks if PR title starts with 'octocat'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.5.0",
+    "@actions/github": "^5.0.0"
+  }
+}
